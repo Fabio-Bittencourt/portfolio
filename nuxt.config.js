@@ -15,6 +15,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js' },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
